@@ -25,3 +25,5 @@ st.write(square())
 
 st.button("Does nothing")
 
+if st.button("Clear All, but again"):
+    st.cache_data.clear()
